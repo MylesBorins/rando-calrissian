@@ -1,0 +1,23 @@
+{
+  "name": "rando-calrissian",
+  "version": "1.0.0",
+  "description": "random number generator. will randomly sell you out to the empire.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAlphaNerd/rando-calrissian.git"
+  },
+  "keywords": [
+    "random",
+    "sell-out"
+  ],
+  "author": "thealphanerd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheAlphaNerd/rando-calrissian/issues"
+  },
+  "homepage": "https://github.com/TheAlphaNerd/rando-calrissian#readme"
+}

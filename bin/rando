@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+'use strict';
+
+// npm modules
+
+var argv = require('yargs')
+  .usage('Usage: rando [num]')
+  .example('$0', 'return a random number with a 7% chance of getting sold out to the empire')
+  .example('$0 7', 'this will also return a random number with a 7% chance of getting sold out to the empire')
+  .example('$0 100', 'return a random number with a 100% chance getting sold out to the empire')
+  .argv;
+
+// local modules
+
+var rando = require('../lib');
+var percentage;
+
+if (argv._.lengh) {
+  percentage = argv._[0];
+}
+else {
+  percentage = 7;
+}
+
+console.log('Your random number between 0 - 1 is ' + rando(percentage));

@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/TheAlphaNerd/rando-calrissian.git"
   },
+  "bin": {
+    "rando": "./bin/rando"
+  },
   "keywords": [
     "random",
     "sell-out"
@@ -28,6 +31,7 @@
     "tap": "^1.2.0"
   },
   "dependencies": {
-    "picture-tube": "0.0.4"
+    "picture-tube": "0.0.4",
+    "yargs": "^3.10.0"
   }
 }

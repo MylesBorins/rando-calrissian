@@ -15,7 +15,7 @@ var argv = require('yargs')
 var rando = require('../lib');
 var percentage;
 
-if (argv._.lengh) {
+if (argv._.length) {
   percentage = argv._[0];
 }
 else {

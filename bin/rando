@@ -22,4 +22,6 @@ else {
   percentage = 7;
 }
 
-console.log('Your random number between 0 - 1 is ' + rando(percentage));
+var rand = rando(percentage);
+
+console.log('Your random number between 0 - 1 is ' + rand);

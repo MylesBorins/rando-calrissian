@@ -1,6 +1,6 @@
 {
   "name": "rando-calrissian",
-  "version": "2.0.5",
+  "version": "3.0.0",
   "description": "random number generator that will randomly sell you out to the empire.",
   "main": "lib/index.js",
   "scripts": {

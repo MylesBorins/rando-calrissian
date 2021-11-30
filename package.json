@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheAlphaNerd/rando-calrissian.git"
+    "url": "git+https://github.com/MylesBorins/rando-calrissian.git"
   },
   "bin": {
     "rando": "./bin/rando"
@@ -19,19 +19,18 @@
     "random",
     "sell-out"
   ],
-  "author": "thealphanerd",
+  "author": "MylesBorins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheAlphaNerd/rando-calrissian/issues"
+    "url": "https://github.com/MylesBorins/rando-calrissian/issues"
   },
-  "homepage": "https://github.com/TheAlphaNerd/rando-calrissian#readme",
+  "homepage": "https://github.com/MylesBorins/rando-calrissian#readme",
   "devDependencies": {
-    "eslint": "^0.22.1",
-    "nodemon": "^1.3.7",
-    "tap": "^1.2.0"
+    "eslint": "^8.3.0",
+    "tap": "^15.1.5"
   },
   "dependencies": {
-    "picture-tuber": "~1.0.2",
-    "yargs": "^3.10.0"
+    "picture-tuber": "^2.0.0",
+    "yargs": "^17.2.1"
   }
 }
